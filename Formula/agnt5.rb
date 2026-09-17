@@ -6,22 +6,22 @@ class Agnt5 < Formula
   on_macos do
     on_arm do
       url "https://cdn.agnt5.com/cli/20260917-f47fbe/agnt5-darwin-arm64"
-      sha256 "46d2604ee0c3e27d4adddd327419e34d1c8e1e6664c73a0ded544ac93742b90c"
+      sha256 "8a791633993b0f654d3a6770dd937b4e80e9c7ad0ef46675efe80d06762aeade"
     end
     on_intel do
       url "https://cdn.agnt5.com/cli/20260917-f47fbe/agnt5-darwin-amd64"
-      sha256 "792172f0cac044a79623cc473b52afc70326873a8c2b7ff2f962ef4d92bfa74e"
+      sha256 "e89bb5281bdcff83701e71a3a73d10b10278ed2b3c9625bf4d513a63f84e63d5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://cdn.agnt5.com/cli/20260917-f47fbe/agnt5-linux-arm64"
-      sha256 "7ebde47f43cb2d528e3b63c2118f69437931cb582287198bffb578f96438c867"
+      sha256 "92e2c6806dda5c126913cf8d0286ede775ae122552600c80f31d4e870ea54088"
     end
     on_intel do
       url "https://cdn.agnt5.com/cli/20260917-f47fbe/agnt5-linux-amd64"
-      sha256 "19766e43024e133a588e3eaadd3b700b615926d41d89dd3b18e8ce542d424b5b"
+      sha256 "6d200b5f54c28d0261cb334e4272d8983b3325f81a4b50c448cf384febc3528d"
     end
   end
 
