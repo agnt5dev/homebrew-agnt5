@@ -1,27 +1,27 @@
 class Agnt5 < Formula
   desc "CLI for AGNT5, a runtime for production-ready AI agents"
   homepage "https://agnt5.com"
-  version "20261005-85c2d7"
+  version "20261005-25a8f3"
 
   on_macos do
     on_arm do
-      url "https://cdn.agnt5.com/cli/20261005-85c2d7/agnt5-darwin-arm64"
-      sha256 "f37e1a8184bc612c37693662ab46c585dd90143a79facdd823a110a8e3e50270"
+      url "https://cdn.agnt5.com/cli/20261005-25a8f3/agnt5-darwin-arm64"
+      sha256 "9299afb5b1fa98bf311aa0c08c4d36402f43a22ad64968bcf18dba0ae991b1fd"
     end
     on_intel do
-      url "https://cdn.agnt5.com/cli/20261005-85c2d7/agnt5-darwin-amd64"
-      sha256 "b9de712b6aec89b6f976f1a5bcbad84d5fa75441b939a11559255533b8ef73b6"
+      url "https://cdn.agnt5.com/cli/20261005-25a8f3/agnt5-darwin-amd64"
+      sha256 "079187f6a0272d889a3d62c8aecda73c0b6130692023c024e7453611a4451a3b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://cdn.agnt5.com/cli/20261005-85c2d7/agnt5-linux-arm64"
-      sha256 "a81290c35d8ab6876168b13b8def4f566dddb9c12bdd176b3a8964b2709f9596"
+      url "https://cdn.agnt5.com/cli/20261005-25a8f3/agnt5-linux-arm64"
+      sha256 "74b54d04c717a9b7fbf523259acee8ea7a0910ef8985f9aeecd57be794d1ab61"
     end
     on_intel do
-      url "https://cdn.agnt5.com/cli/20261005-85c2d7/agnt5-linux-amd64"
-      sha256 "2cfacd35b2983667d8156f7323abbc9d3cdc2d28c12d2455c196e50bab0b5eea"
+      url "https://cdn.agnt5.com/cli/20261005-25a8f3/agnt5-linux-amd64"
+      sha256 "abc99e59d4c700cf5abdd8f2bcffbeffe66b3e4aac75bffcea6f12da3fc2df5f"
     end
   end
 
